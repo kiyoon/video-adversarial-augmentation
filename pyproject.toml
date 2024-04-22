@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlproject"
+dynamic = ["version"]
+description = "Machine Learning Project Template"
+authors = [{ name = "Kiyoon Kim" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "License :: OSI Approved :: MIT License",
+]
+keywords = ["machine-learning", "pytorch"]
+dependencies = [
+  "rich >= 13.3.0",
+  "hydra-zen >= 0.10.0",
+  "wandb >= 0.14.0",
+  "torch >= 2.0.0",
+  "torchvision >= 0.15.0",
+  "accelerate >= 0.18.0",
+  "huggingface-hub >= 0.13.0",
+  "timm >= 0.6.0",
+  "gulpio2 @ git+https://github.com/kiyoon/GulpIO2",
+  "natsort >= 8.0.0",
+  "orjson >= 3.6.0",
+  "kornia >= 0.6.0",
+  "python-dotenv >= 1.0.0",
+  "gitpython >= 3.1.0",
+  "numpy >= 1.20.0",
+  "scipy >= 1.10.0",
+  "decord >= 0.6.0",
+  "scikit-learn >= 1.2.0",
+  "pandas >= 2.0.0",
+  "matplotlib >= 3.4.0",
+  "seaborn >= 0.12.0",
+  "einops >= 0.6.1",
+]
+
+[project.optional-dependencies]
+dev = ["black >= 22.1.0", "pre-commit >= 2.21.0"]
+test = ["pytest >= 7.0", "pytest-cov >= 4.0", "flake8 >= 6.0", "tox >= 4.0.0"]
+
+[project.urls]
+"Homepage" = "https://github.com/kiyoon/mlproject"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]
+write_to = "src/mlproject/_version.py"
+
+[tool.pytest.ini_options]
+addopts = "--cov=mlproject"
+testpaths = ["tests"]
