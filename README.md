@@ -33,13 +33,21 @@ NOTE: you don't need to download the datasets as they will be downloaded automat
 If you find our work or code useful, please cite:
 
 ```BibTeX
-@misc{kim2024videoadversarial,
-      title={Adversarial Augmentation Training Makes Action Recognition Models More Robust to Realistic Video Distribution Shifts}, 
-      author={Kiyoon Kim and Shreyank N Gowda and Panagiotis Eustratiadis and Antreas Antoniou and Robert B Fisher},
-      year={2024},
-      eprint={2401.11406},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2401.11406}, 
+@InProceedings{kim2024videoadversarial,
+author="Kim, Kiyoon
+and Gowda, Shreyank N.
+and Eustratiadis, Panagiotis
+and Antoniou, Antreas
+and Fisher, Robert B.",
+editor="Wallraven, Christian
+and Liu, Cheng-Lin
+and Ross, Arun",
+title="Adversarial Augmentation Training Makes Action Recognition Models More Robust to Realistic Video Distribution Shifts",
+booktitle="Pattern Recognition and Artificial Intelligence",
+year="2025",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="186--200",
+isbn="978-981-97-8702-9"
 }
 ```
