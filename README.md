@@ -1,7 +1,7 @@
 # Adversarial Augmentation Training Makes Action Recognition Models More Robust to Realistic Video Distribution Shifts
 
 Kiyoon Kim, Shreyank N Gowda, Panagiotis Eustratiadis, Antreas Antoniou, Robert B Fisher  
-In ICPRAI 2024. [`arXiv`](https://arxiv.org/abs/2401.11406)
+In ICPRAI 2024. [`arXiv`](https://arxiv.org/abs/2401.11406) [`springer`](https://link.springer.com/chapter/10.1007/978-981-97-8702-9_13)
 
 ## Dataset downloads (matching classes only)
 
