@@ -3,6 +3,8 @@
 Kiyoon Kim, Shreyank N Gowda, Panagiotis Eustratiadis, Antreas Antoniou, Robert B Fisher  
 In ICPRAI 2024. [`arXiv`](https://arxiv.org/abs/2401.11406) [`springer`](https://link.springer.com/chapter/10.1007/978-981-97-8702-9_13)
 
+<img src="https://github.com/user-attachments/assets/618213c5-2579-4ee1-bf26-3aa2d219ed56" alt="Adversarial Augmentation" width="800"/>
+
 ## Dataset downloads (matching classes only)
 
 - [HMDB-Kinetics-28.csv](https://github.com/kiyoon/video-adversarial-augmentation/files/15058451/hmdb-kinetics-28.csv)
